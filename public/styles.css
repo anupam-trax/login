@@ -1,0 +1,126 @@
+html{
+    font-family: 'Helvetica neue';
+}
+
+h1{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 30px !important;
+}
+
+h2{
+    display: inline;
+}
+
+.icons{
+    display: inline;
+    
+}
+
+.box{
+    margin:60px;
+    height: 620px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 1%;
+    display: flex;
+}
+
+.loginTitle{
+    margin-bottom: 40px;
+}
+
+.form-title{
+    margin-bottom: 50px;
+}
+
+.icon{
+    margin-left: 72%;
+    margin-right: 25px;
+}
+
+.icon-create{
+    margin-left: 47%;
+    margin-right: 25px;
+}
+
+.icon-forgot{
+    margin-left: 40%;
+    margin-right: 25px;
+}
+
+
+.loginInfo{
+    margin: 50px;
+    width: 50%;
+}
+
+input{
+    height: 50px;
+}
+
+.form-label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.model{
+    height: 620px;
+    width: 45%;
+    border-radius: 1% 0% 0% 1%;
+}
+
+.pass{
+    margin-top: 30px;
+}
+
+.btn{
+    color: white !important;
+    background-color: rgba(213, 179, 107) !important;
+    border: 0px !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+    margin-top: 20px;
+}
+
+.form-check{
+    color: rgba(213, 179, 107);
+    margin-top: 20px;
+}
+
+.form-check-input:checked {
+    background-color: rgba(213, 179, 107) !important;
+    border-color: rgba(213, 179, 107) !important;
+}
+
+.form-check a{
+    text-decoration: none !important;
+    color: grey !important;
+    margin-left: 62%;
+}
+
+.newUser{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.newUser p{
+    display: inline;
+}
+
+.newUser a{
+    color: rgba(213, 179, 107);
+    text-decoration: none;
+}
+
+::placeholder {
+    color: grey !important;
+    opacity: 0.5 !important;
+  }
+
+.wrongPass p{
+    color: red;
+}
+
+.hide{
+    visibility: hidden;
+}
